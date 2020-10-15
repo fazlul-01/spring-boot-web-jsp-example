@@ -7,7 +7,7 @@
     <h1>${message}</h1>
     <form action="hello.jsp" method="POST">
         <label for="name"> Name: </label>
-        <input type="text" id="name"><br>
+        <input type="text" id="name" name="Name"><br>
         <input type="submit" value="Submit">
     </form>
 
