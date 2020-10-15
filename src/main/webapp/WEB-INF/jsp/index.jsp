@@ -5,6 +5,11 @@
 
 <body>
     <h1>${message}</h1>
+    <form action="hello.jsp">
+        <label for="name"> Name: </label>
+        <input type="text" id="name"><br>
+        <input type="submit" value="Submit">
+    </form>
 
     <spring:url value="/test.txt" htmlEscape="true" var="springUrl" />
     <c:url value="/test.txt" var="cUrl"/>
